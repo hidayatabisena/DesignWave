@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53EDFE252B254B9D0099895A /* DesignWaveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDFE242B254B9D0099895A /* DesignWaveApp.swift */; };
+		53EDFE272B254B9D0099895A /* DWContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDFE262B254B9D0099895A /* DWContentView.swift */; };
+		53EDFE292B254BA00099895A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53EDFE282B254BA00099895A /* Assets.xcassets */; };
+		53EDFE2C2B254BA00099895A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53EDFE2B2B254BA00099895A /* Preview Assets.xcassets */; };
+		53EDFE372B254F350099895A /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDFE362B254F350099895A /* Design.swift */; };
+		53EDFE3A2B2550140099895A /* DesignData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDFE392B2550140099895A /* DesignData.swift */; };
+		53EDFE3C2B2565920099895A /* DWItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDFE3B2B2565920099895A /* DWItemsView.swift */; };
+		53EDFE482B256FE80099895A /* DWGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDFE472B256FE80099895A /* DWGridView.swift */; };
+		53EDFE4A2B2577020099895A /* DWHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDFE492B2577020099895A /* DWHeaderView.swift */; };
+		53EDFE4C2B2578D80099895A /* DWDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDFE4B2B2578D80099895A /* DWDetailView.swift */; };
+		53EDFE4E2B2582F00099895A /* DWLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDFE4D2B2582F00099895A /* DWLabelView.swift */; };
+		53EDFE512B2585420099895A /* DWSafariVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDFE502B2585420099895A /* DWSafariVC.swift */; };
+		53EDFE532B2589B20099895A /* DWResourceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDFE522B2589B20099895A /* DWResourceRowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53EDFE212B254B9D0099895A /* DesignWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EDFE242B254B9D0099895A /* DesignWaveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignWaveApp.swift; sourceTree = "<group>"; };
+		53EDFE262B254B9D0099895A /* DWContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWContentView.swift; sourceTree = "<group>"; };
+		53EDFE282B254BA00099895A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53EDFE2B2B254BA00099895A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53EDFE362B254F350099895A /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		53EDFE392B2550140099895A /* DesignData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignData.swift; sourceTree = "<group>"; };
+		53EDFE3B2B2565920099895A /* DWItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWItemsView.swift; sourceTree = "<group>"; };
+		53EDFE472B256FE80099895A /* DWGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWGridView.swift; sourceTree = "<group>"; };
+		53EDFE492B2577020099895A /* DWHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWHeaderView.swift; sourceTree = "<group>"; };
+		53EDFE4B2B2578D80099895A /* DWDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWDetailView.swift; sourceTree = "<group>"; };
+		53EDFE4D2B2582F00099895A /* DWLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWLabelView.swift; sourceTree = "<group>"; };
+		53EDFE502B2585420099895A /* DWSafariVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWSafariVC.swift; sourceTree = "<group>"; };
+		53EDFE522B2589B20099895A /* DWResourceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DWResourceRowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53EDFE1E2B254B9D0099895A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53EDFE182B254B9D0099895A = {
+			isa = PBXGroup;
+			children = (
+				53EDFE232B254B9D0099895A /* DesignWave */,
+				53EDFE222B254B9D0099895A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53EDFE222B254B9D0099895A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53EDFE212B254B9D0099895A /* DesignWave.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53EDFE232B254B9D0099895A /* DesignWave */ = {
+			isa = PBXGroup;
+			children = (
+				53EDFE4F2B2585160099895A /* Helper */,
+				53EDFE382B254FF40099895A /* Data */,
+				53EDFE352B254F090099895A /* View */,
+				53EDFE342B254F020099895A /* App */,
+				53EDFE332B254EF70099895A /* Resources */,
+				53EDFE322B254EEC0099895A /* Model */,
+				53EDFE2A2B254BA00099895A /* Preview Content */,
+			);
+			path = DesignWave;
+			sourceTree = "<group>";
+		};
+		53EDFE2A2B254BA00099895A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53EDFE2B2B254BA00099895A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		53EDFE322B254EEC0099895A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53EDFE362B254F350099895A /* Design.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53EDFE332B254EF70099895A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53EDFE282B254BA00099895A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53EDFE342B254F020099895A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				53EDFE242B254B9D0099895A /* DesignWaveApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		53EDFE352B254F090099895A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53EDFE262B254B9D0099895A /* DWContentView.swift */,
+				53EDFE3B2B2565920099895A /* DWItemsView.swift */,
+				53EDFE472B256FE80099895A /* DWGridView.swift */,
+				53EDFE492B2577020099895A /* DWHeaderView.swift */,
+				53EDFE4B2B2578D80099895A /* DWDetailView.swift */,
+				53EDFE4D2B2582F00099895A /* DWLabelView.swift */,
+				53EDFE522B2589B20099895A /* DWResourceRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53EDFE382B254FF40099895A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				53EDFE392B2550140099895A /* DesignData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		53EDFE4F2B2585160099895A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				53EDFE502B2585420099895A /* DWSafariVC.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53EDFE202B254B9D0099895A /* DesignWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53EDFE2F2B254BA00099895A /* Build configuration list for PBXNativeTarget "DesignWave" */;
+			buildPhases = (
+				53EDFE1D2B254B9D0099895A /* Sources */,
+				53EDFE1E2B254B9D0099895A /* Frameworks */,
+				53EDFE1F2B254B9D0099895A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignWave;
+			packageProductDependencies = (
+			);
+			productName = DesignWave;
+			productReference = 53EDFE212B254B9D0099895A /* DesignWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53EDFE192B254B9D0099895A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					53EDFE202B254B9D0099895A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 53EDFE1C2B254B9D0099895A /* Build configuration list for PBXProject "DesignWave" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53EDFE182B254B9D0099895A;
+			packageReferences = (
+			);
+			productRefGroup = 53EDFE222B254B9D0099895A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53EDFE202B254B9D0099895A /* DesignWave */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53EDFE1F2B254B9D0099895A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EDFE2C2B254BA00099895A /* Preview Assets.xcassets in Resources */,
+				53EDFE292B254BA00099895A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53EDFE1D2B254B9D0099895A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EDFE4A2B2577020099895A /* DWHeaderView.swift in Sources */,
+				53EDFE3C2B2565920099895A /* DWItemsView.swift in Sources */,
+				53EDFE372B254F350099895A /* Design.swift in Sources */,
+				53EDFE532B2589B20099895A /* DWResourceRowView.swift in Sources */,
+				53EDFE482B256FE80099895A /* DWGridView.swift in Sources */,
+				53EDFE272B254B9D0099895A /* DWContentView.swift in Sources */,
+				53EDFE512B2585420099895A /* DWSafariVC.swift in Sources */,
+				53EDFE252B254B9D0099895A /* DesignWaveApp.swift in Sources */,
+				53EDFE4E2B2582F00099895A /* DWLabelView.swift in Sources */,
+				53EDFE4C2B2578D80099895A /* DWDetailView.swift in Sources */,
+				53EDFE3A2B2550140099895A /* DesignData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53EDFE2D2B254BA00099895A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53EDFE2E2B254BA00099895A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53EDFE302B254BA00099895A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesignWave/Preview Content\"";
+				DEVELOPMENT_TEAM = EJGCGKY84H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hidayatabisena.DesignWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		53EDFE312B254BA00099895A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DesignWave/Preview Content\"";
+				DEVELOPMENT_TEAM = EJGCGKY84H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hidayatabisena.DesignWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53EDFE1C2B254B9D0099895A /* Build configuration list for PBXProject "DesignWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EDFE2D2B254BA00099895A /* Debug */,
+				53EDFE2E2B254BA00099895A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53EDFE2F2B254BA00099895A /* Build configuration list for PBXNativeTarget "DesignWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EDFE302B254BA00099895A /* Debug */,
+				53EDFE312B254BA00099895A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53EDFE192B254B9D0099895A /* Project object */;
+}
